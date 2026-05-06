@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title>UNITY REGISTRY 2026 | Vital Event System</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- VIDEO BACKGROUND - WORKING WITH RELIABLE ONLINE VIDEO -->
+<div class="video-background" id="videoBackground">
+  <video autoplay loop muted playsinline id="bgVideo">
+    <!-- These are RELIABLE online video URLs that WILL work -->
+    <source src="video.mp4" type="video/mp4">
+    <source src="https://cdn.pixabay.com/video/2023/06/27/169590-837395353_large.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="video-overlay" id="videoOverlay"></div>
+
+<!-- HOME PAGE CONTENT -->
+<div id="homePage">
+  <div class="app-container">
+    <div class="navbar">
+      <div class="logo">
+        <h1>UNITY REGISTRY <i class="fas fa-certificate"></i></h1>
+        <span>Vital Events · Digital Seal 2026</span>
+      </div>
+      <div class="nav-links">
+        <a href="#" id="navHomeLink" class="active-nav">Home</a>
+        <a href="#" id="navSupportLink">Support</a>
+        <a href="#" id="navDashboardLink">Life Records Dashboard</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="hero-text">
+        <div class="badge"><i class="fas fa-shield-alt"></i> Secure Government Portal · Year 2026</div>
+        <h2>Official Vital Event<br>Registration System</h2>
+        <p>Digital civil registry for births, marriages, divorces, adoptions, and deaths. Instant certificates, encrypted ledger & trusted nationwide infrastructure.</p>
+      </div>
+      <div class="hero-image">
+        <div>
+          <i class="fas fa-id-card" style="font-size: 80px; margin: 10px 0;"></i><br>
+          <i class="fas fa-fingerprint" style="font-size: 45px; margin: 0 12px;"></i>
+          <i class="fas fa-file-signature" style="font-size: 55px;"></i>
+          <p style="margin-top: 16px; font-weight: 500;">Civil Registry 2.0 · Biometric Ready</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-title">
+      <i class="fas fa-database"></i> Register a life event
+    </div>
+
+    <div class="event-grid">
+      <div class="event-card" data-event="birth">
+        <div class="event-icon"><i class="fas fa-baby-carriage"></i></div>
+        <h3>Birth</h3>
+        <p>New citizen certificate</p>
+      </div>
+      <div class="event-card" data-event="marriage">
+        <div class="event-icon"><i class="fas fa-rings-wedding"></i></div>
+        <h3>Marriage</h3>
+        <p>Union registration</p>
+      </div>
+      <div class="event-card" data-event="divorce">
+        <div class="event-icon"><i class="fas fa-gavel"></i></div>
+        <h3>Divorce</h3>
+        <p>Legal dissolution</p>
+      </div>
+      <div class="event-card" data-event="adoption">
+        <div class="event-icon"><i class="fas fa-hand-holding-heart"></i></div>
+        <h3>Adoption</h3>
+        <p>Families & guardianship</p>
+      </div>
+      <div class="event-card" data-event="death">
+        <div class="event-icon"><i class="fas fa-dove"></i></div>
+        <h3>Death</h3>
+        <p>Mortality certificate</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Unity Registry — Government-authorized digital vital events system. All records secured with 256-bit encryption & blockchain timestamp.</p>
+      <p style="margin-top: 10px;"><i class="fas fa-globe"></i> Integrated with national ID smart contract · version 2.6.0</p>
+    </footer>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
